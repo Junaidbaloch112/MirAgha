@@ -37,10 +37,10 @@ def home(): #main menu
     baba("\tRunning => ")
     os.system("clear")
     print logo
-    device = platform.architecture()[1]
+    home()[1]
     if device == '64bit':
         from babacrack without root
-        clear()
+        home()
     elif device == '32bit':
         os.system("clear")
         os.system("exit")
