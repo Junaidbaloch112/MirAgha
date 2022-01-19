@@ -37,10 +37,10 @@ def home(): #main menu
     baba("\tRunning => ")
     os.system("clear")
     print logo
-    device = platform.architecture()[0]
+    device = platform.architecture()[1]
     if device == '64bit':
-        from babacrack import root
-        root()
+        from babacrack without root
+        clear()
     elif device == '32bit':
         os.system("clear")
         os.system("exit")
@@ -51,6 +51,6 @@ def home(): #main menu
         os.system("clear")
         os.system("cat /data/data/com.termux/files/usr/etc/motd") # Show Termux Info Text 
         os.system("exit")
-
+home()
 if __name__ == '__main__':
     home()
